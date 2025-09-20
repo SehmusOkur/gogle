@@ -1,0 +1,48 @@
+.genis{
+    width:330px;
+}
+
+.bg1{
+   background-color: rgb(0, 109, 109);
+}
+.bg2{
+   background-color: rgb(75, 153, 153);
+}
+.bg3{
+   background-color: rgb(94, 201, 201);
+}
+
+.yan1 article {
+  display: flex;              /* yan yana diz */
+  justify-content: center;    /* ortada hizala */
+  align-items: flex-start;    /* üstten hizala */
+  gap: 2px;                  /* aralarına boşluk */
+  margin-top: 40px;
+}
+
+.yan1 article div {
+  width: 600px;
+  height: 75px;
+  /* background: #f2f2f2; */
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+  display: flex;                /* içeriği flex yap */
+  justify-content: center;      /* yatayda ortala */
+  align-items: center;          /* dikeyde ortala */
+  text-align: center;           /* yazılar çok satırsa ortalansın */
+
+}
+
+li{
+    list-style-type: none;
+    font-size: 16px;
+}
+
+footer{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    text-align: left;
+    margin-right:40% ;
+}
